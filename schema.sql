@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS BamazonDB;
-CREATE DATABASE BamazonDB;
+DROP DATABASE IF EXISTS Bamazon_db;
+CREATE DATABASE Bamazon_db;
 
-USE BamazonDB;
+USE Bamazon_db;
 
 CREATE TABLE products(
 item_id INT AUTO_INCREMENT NOT NULL,
@@ -14,22 +14,22 @@ PRIMARY KEY (item_id)
 );
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
-VALUES ("Desert boot", "Clarks", "Shoes", 130.00, 1000);
+VALUES ("Desert boot", "Clarks", "Shoes", 130.00, 50);
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
-VALUES ("Original 2-eye","Sperry Top-Sider", "Shoes", 109.00, 500);
+VALUES ("Original 2-eye","Sperry Top-Sider", "Shoes", 109.00, 50);
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
-VALUES ("Old Skool","Vans", "Shoes", 60.00, 500);
+VALUES ("Old Skool","Vans", "Shoes", 60.00, 50);
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
-VALUES ("Espadrilles", "Saint Laurent", "Shoes", 495.00, 500);
+VALUES ("Espadrilles", "Saint Laurent", "Shoes", 495.00, 50);
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
-VALUES ("Leather brogues", "Burberry", "Shoes", 456.00, 100);
+VALUES ("Leather brogues", "Burberry", "Shoes", 456.00, 30);
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
-VALUES ("Lace-up leather oxfords", "Tod's", "Shoes", 425.00, 100);
+VALUES ("Lace-up leather oxfords", "Tod's", "Shoes", 425.00, 20);
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
 VALUES ("Duke Chelsea boots", "Thrusday Boots", "Shoes", 199.00, 50);
@@ -38,7 +38,7 @@ INSERT INTO products (product_name, product_kind, department_name, price, stock_
 VALUES ("Gel Lyte V", "Asics", "Shoes", 145.00, 100);
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
-VALUES ("Aquatalia", "Chealsea", "Shoes", 450.00, 50);
+VALUES ("Aquatalia", "Chelsea", "Shoes", 450.00, 50);
 
 INSERT INTO products (product_name, product_kind, department_name, price, stock_quantity)
 VALUES ("Hunter", "Chelsea", "Shoes", 113.00, 20);
